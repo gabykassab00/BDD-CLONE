@@ -67,4 +67,75 @@ text-align: center;
     text-align: center;
     margin-top: -700px;
     color: white;
+    font: bold;
+}
+.foundations{
+    position: absolute;
+    bottom: -600px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+.container-foundations{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 20px;
+background-color: #f1f1f1;
+bottom: -900px;
+position: absolute;
+}
+.box{
+    background-color: #ffffff;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 160px;
+    height: 220px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: 55px;
+}
+.box img{
+    height: 90px;
+    width: 90px;
+}
+.box h4{
+    color: black;
+    margin-top: -10px;
+}
+.box p{
+    color: grey;
+    font-size: 12px;
+    margin-top: -20px;
+}
+.background-image img{
+    color: #f0f0f0;
+    background-image: url(C:\Users\Computop\Desktop\bdd\images\Shared-Space-at-BDD.png);
+    margin-top: 1000px;
+    height: 500px;
+    width: 1350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter:grayscale(45%);
+}
+.vision-container h2{
+    z-index: 1;
+    position: absolute;
+    margin-top: 1050px;
+    text-align: center;
+    font-size: 2em;
+    margin-left: 550px;
+    color: #f0f0f0;
+}
+.front-video img{
+width: 500px;
+height: 300px;
+position: absolute;
+margin-left: 420px;
+margin-top: -400px;
 }
